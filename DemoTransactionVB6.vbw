@@ -1,4 +1,5 @@
-Order = 50, 50, 826, 475, 
+Order = 50, 50, 826, 475, C
 OrderDetail = 75, 75, 851, 500, C
-ModMain = 150, 150, 951, 574, Z
-OrderDao = 175, 175, 919, 599, 
+ModMain = 150, 150, 951, 574, C
+OrderDao = 175, 175, 919, 599, C
+DbConnection = 25, 25, 665, 464, C

@@ -21,6 +21,10 @@ Private mShipName           As String
 Private mShipAddress        As String
 Private mListOfOrderDetail  As Scripting.Dictionary
 
+Private Sub Class_Initialize()
+    Set mListOfOrderDetail = New Scripting.Dictionary
+End Sub
+
 Public Property Let orderID(ByVal vData As Long)
     mOrderID = vData
 End Property

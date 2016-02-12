@@ -42,7 +42,6 @@ Public Sub Main()
     End With
     
     ' hubungkan objek item order ke objek order
-    objOrder.listOfOrderDetail = New Scripting.Dictionary
     objOrder.listOfOrderDetail.Add 1, objItemOrder1
     objOrder.listOfOrderDetail.Add 2, objItemOrder2
     objOrder.listOfOrderDetail.Add 3, objItemOrder3
